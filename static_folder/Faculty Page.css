@@ -1,0 +1,175 @@
+/* font and margin and padding for whole page */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}/* font and margin and padding for whole page */
+
+/* header section */
+.header {
+    background-color: #2e6b41; /* Dark green color for the header */
+    color: #fff; /* White text color for the header */
+    text-align: center;
+    padding: 0px 0; /* Adding padding to the header */
+}
+
+/* top bar containing logo and navigation */
+.top-bar {
+    background-color: #2e6b41; /* Dark green color for the top bar */
+    display: flex;
+    align-items: center; /* Align items vertically */
+    padding: 0px 10px; /* Adjusted padding */
+}
+
+/* Styles for the logo */
+.logo img {
+    max-width: 50px; /* Adjusting the width of the logo */
+    margin-right: 5px; /* Adding margin to separate logo and navigation */
+}
+
+/* Styles for the navigation bar */
+.navbar {
+    display: flex;
+    margin-right: auto; /* Move navigation buttons to the left */
+}
+
+/* Styles for the navigation links */
+.navbar a {
+    text-decoration: none;
+    color: #fff; /* White text color for navigation links */
+    margin: 0 5px;
+    font-weight: italic; /* Italic font weight */
+    padding: 5px 10px; /* Adding padding to the buttons */
+    border-radius: 5px; /* Adding rounded corners */
+}
+
+/* Styles for the navigation links on hover */
+.navbar a:hover {
+    background-color: #0b0b0b47; /* Darkening button color on hover */
+}
+
+/* Styles for the hero section */
+.hero {
+    background-image: url("Campus-visakhapatnam.jpg");
+    background-size: cover;
+    background-position: center; /* Center the background image */
+    padding: 100px 0; /* Adjusted padding */
+    text-align: center; /* Center the text horizontally */
+}
+
+/* Styles for the take attendance button */
+.take-attendance-button {
+    background-color: rgb(158, 112, 141); /* Peach color for the button */
+    color: #fff; /* White text color for the button */
+    font-size: 24px; /* Larger font size */
+    padding: 20px 40px; /* Increased padding */
+    border: none; /* No border */
+    border-radius: 10px; /* Rounded corners */
+    cursor: pointer; /* Cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.take-attendance-button:hover {
+    background-color: #511147; /* Darker peach color on hover */
+}
+
+/* Styles for the footer section */
+.footer {
+    background: linear-gradient(45deg, #346543 , #e2a993 ); /* Two different colors divided by a linear gradient */
+    color: white;
+    text-align: center;
+    padding: 1px 0;
+    border-radius:0 0 50% 50%/0 0 100% 100%; /* Rounded corners for the footer */
+    transform: scaleX(1.5);
+    font-style: Roboto; /* Set font style to italic */
+    font-size: 10px; 
+}
+
+
+/* header section */
+.header {
+    background-color: #2e6b41; /* Dark green color for the header */
+    color: #fff; /* White text color for the header */
+    text-align: center;
+    padding: 0px 0; /* Adding padding to the header */
+}
+
+/* top bar containing logo and navigation */
+.top-bar {
+    background-color: #2e6b41; /* Dark green color for the top bar */
+    display: flex;
+    align-items: center; /* Align items vertically */
+    padding: 0px 10px; /* Adjusted padding */
+}
+
+/* Styles for the logo */
+.logo img {
+    max-width: 50px; /* Adjusting the width of the logo */
+    margin-right: 5px; /* Adding margin to separate logo and navigation */
+}
+
+/* Styles for the navigation bar */
+.navbar {
+    display: flex;
+    margin-right: auto; /* Move navigation buttons to the left */
+}
+
+/* Styles for the navigation links */
+.navbar a {
+    text-decoration: none;
+    color: #fff; /* White text color for navigation links */
+    margin: 0 5px;
+    font-weight: italic; /* Italic font weight */
+    padding: 5px 10px; /* Adding padding to the buttons */
+    border-radius: 5px; /* Adding rounded corners */
+}
+
+/* Styles for the navigation links on hover */
+.navbar a:hover {
+    background-color: #0b0b0b47; /* Darkening button color on hover */
+}
+
+
+/* Styles for the hero section */
+.hero {
+    background-image: url("Campus-visakhapatnam.jpg");
+    background-size: cover;
+    background-position: center; /* Center the background image */
+    padding: 250px 0;
+    text-align: center; /* Center the text horizontally */
+}
+
+
+/* Styles for the content and features sections */
+.content, .features {
+    background-color: white;
+    padding: 50px 0;
+}
+
+/* Styles for the container */
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/* Styles for the content heading */
+.content h2 {
+    color: #2b3e6b;
+}
+
+/* Styles for the feature items */
+.features .feature {
+    margin-bottom: 10px;
+}
+
+/* Styles for the footer section */
+.footer {
+    background: linear-gradient(45deg, #346543 , #e2a993 ); /* Two different colors divided by a linear gradient */
+    color: white;
+    text-align: center;
+    padding: 1px 0;
+    border-radius:0 0 50% 50%/0 0 100% 100%; /* Rounded corners for the footer */
+    transform: scaleX(1.5);
+    font-style: Roboto; /* Set font style to italic */
+    font-size: 10px; 
+}

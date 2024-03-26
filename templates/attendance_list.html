@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Attendance List</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='attendance_list.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Attendance List</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Roll Number</th>
+                    <th>Name</th>
+                    <th>Status</th>
+                    <th>Update</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for record in attendance_status %}
+                <tr>
+                    <td>{{ record.roll_number }}</td>
+                    <td>{{ record.name }}</td>
+                    <td>{{ record.status }}</td>
+                    <td>
+                        <!-- Link to Flask routes for updating attendance -->
+                        <a href="{{ url_for('mark_present', roll_number=record.roll_number) }}" class="button present">Present</a>
+                        <a href="{{ url_for('mark_absent', roll_number=record.roll_number) }}" class="button absent">Absent</a>
+                    </td>
+                </tr>
+                {% endfor %}
+                
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

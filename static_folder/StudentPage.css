@@ -1,0 +1,194 @@
+/* Styles for the whole page */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* Header section */
+.header {
+    background-color: #2e6b41;
+    color: #fff;
+    text-align: center;
+    padding: 0px 0;
+}
+
+/* Top bar containing logo and navigation */
+.top-bar {
+    background-color: #2e6b41;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+/* Logo styles */
+.logo img {
+    max-width: 50px;
+    margin-right: 5px;
+}
+
+/* Navigation bar */
+.navbar {
+    display: flex;
+    margin-right: auto;
+}
+
+/* Navigation links */
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 5px;
+    font-weight: italic;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Hover effect for navigation links */
+.navbar a:hover {
+    background-color: #0b0b0b47;
+}
+
+/* Hero section */
+.hero {
+    background-image: url("../static_folder/Campus-visakhapatnam.jpg"); /* Adjust path as necessary */
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    text-align: center;
+}
+
+/* Check attendance button */
+.check-attendance-button {
+    background-color: rgb(158, 112, 141);
+    color: #fff;
+    font-size: 24px;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.check-attendance-button:hover {
+    background-color: #511147;
+}
+
+/* Subjects list styles */
+#subjectList ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#subjectList li {
+    padding: 8px;
+    background-color: #461313;
+    margin-bottom: 4px;
+    border-radius: 5px;
+}
+
+/* Footer section */
+.footer {
+    /* Footer section continued */
+    background: linear-gradient(45deg, #346543, #e2a993);
+    color: white;
+    text-align: center;
+    padding: 1px 0;
+    border-radius: 0 0 50% 50% / 0 0 100% 100%;
+    transform: scaleX(1.5);
+    font-style: Roboto;
+    font-size: 10px;
+}
+
+/* Additional styles if needed for Student Page */
+/* Feel free to add or adjust styles to better fit the content of your Student Page */
+/* header section */
+.header {
+    background-color: #2e6b41; /* Dark green color for the header */
+    color: #fff; /* White text color for the header */
+    text-align: center;
+    padding: 0px 0; /* Adding padding to the header */
+}
+
+/* top bar containing logo and navigation */
+.top-bar {
+    background-color: #2e6b41; /* Dark green color for the top bar */
+    display: flex;
+    align-items: center; /* Align items vertically */
+    padding: 0px 10px; /* Adjusted padding */
+}
+
+/* Styles for the logo */
+.logo img {
+    max-width: 50px; /* Adjusting the width of the logo */
+    margin-right: 5px; /* Adding margin to separate logo and navigation */
+}
+
+/* Styles for the navigation bar */
+.navbar {
+    display: flex;
+    margin-right: auto; /* Move navigation buttons to the left */
+}
+
+/* Styles for the navigation links */
+.navbar a {
+    text-decoration: none;
+    color: #fff; /* White text color for navigation links */
+    margin: 0 5px;
+    font-weight: italic; /* Italic font weight */
+    padding: 5px 10px; /* Adding padding to the buttons */
+    border-radius: 5px; /* Adding rounded corners */
+}
+
+/* Styles for the navigation links on hover */
+.navbar a:hover {
+    background-color: #0b0b0b47; /* Darkening button color on hover */
+}
+
+
+/* Styles for the hero section */
+.hero {
+    background-image: url("Campus-visakhapatnam.jpg");
+    background-size: cover;
+    background-position: center; /* Center the background image */
+    padding: 250px 0;
+    text-align: center; /* Center the text horizontally */
+}
+
+
+/* Styles for the content and features sections */
+.content, .features {
+    background-color: white;
+    padding: 50px 0;
+}
+
+/* Styles for the container */
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/* Styles for the content heading */
+.content h2 {
+    color: #2b3e6b;
+}
+
+/* Styles for the feature items */
+.features .feature {
+    margin-bottom: 10px;
+}
+
+/* Styles for the footer section */
+.footer {
+    background: linear-gradient(45deg, #346543 , #e2a993 ); /* Two different colors divided by a linear gradient */
+    color: white;
+    text-align: center;
+    padding: 1px 0;
+    border-radius:0 0 50% 50%/0 0 100% 100%; /* Rounded corners for the footer */
+    transform: scaleX(1.5);
+    font-style: Roboto; /* Set font style to italic */
+    font-size: 10px; 
+}
